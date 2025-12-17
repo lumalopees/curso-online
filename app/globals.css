@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-inter);
+  line-height: 1.6;
+}
+
+/* Dark mode (default) */
+.dark {
+  background-color: #0F172A;
+  color: #E5E7EB;
+}
+
+.dark .bg-background {
+  background-color: #0F172A;
+}
+
+.dark .text-text {
+  color: #E5E7EB;
+}
+
+.dark .text-accent {
+  color: #38BDF8;
+}
+
+.dark .bg-accent {
+  background-color: #38BDF8;
+}
+
+.dark .border-accent {
+  border-color: #38BDF8;
+}
+
+/* Light mode */
+.light {
+  background-color: #FFFFFF;
+  color: #1F2937;
+}
+
+.light .bg-background {
+  background-color: #FFFFFF;
+}
+
+.light .text-text {
+  color: #1F2937;
+}
+
+.light .text-accent {
+  color: #0284C7;
+}
+
+.light .bg-accent {
+  background-color: #0284C7;
+}
+
+.light .border-accent {
+  border-color: #0284C7;
+}
+

@@ -22,15 +22,56 @@ This project is a landing page that introduces and promotes an online productivi
 
 ## Technologies
 
-(To be updated based on the tech stack used)
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **next-themes** - Dark/light mode toggle
+- **Lucide React** - Icons
+- **Inter Font** - Typography
 
 ## Getting Started
 
-(Instructions will be added based on the project setup)
+### Prerequisites
+
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Run the development server:
+```bash
+npm run dev
+```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
 
 ## Project Structure
 
-(To be updated as the project develops)
+```
+curso-online/
+├── app/
+│   ├── globals.css       # Global styles and theme configuration
+│   ├── layout.tsx        # Root layout with theme provider
+│   └── page.tsx          # Home page
+├── components/
+│   ├── Hero.tsx          # Hero section component
+│   ├── ThemeProvider.tsx # Theme context provider
+│   └── ThemeToggle.tsx   # Dark/light mode toggle button
+├── public/               # Static assets
+└── package.json          # Dependencies
+```
 
 ## Contributing
 
