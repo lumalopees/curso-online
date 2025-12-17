@@ -67,6 +67,9 @@ curso-online/
 │   └── page.tsx          # Home page
 ├── components/
 │   ├── Hero.tsx          # Hero section component
+│   ├── WhoIsThisFor.tsx  # Target audience section
+│   ├── WhatYouLearn.tsx  # Course content section with cards
+│   ├── Instructor.tsx    # Instructor bio section
 │   ├── ThemeProvider.tsx # Theme context provider
 │   └── ThemeToggle.tsx   # Dark/light mode toggle button
 ├── public/               # Static assets

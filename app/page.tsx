@@ -1,5 +1,8 @@
 import { Hero } from "@/components/Hero";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { WhoIsThisFor } from "@/components/WhoIsThisFor";
+import { WhatYouLearn } from "@/components/WhatYouLearn";
+import { Instructor } from "@/components/Instructor";
 
 export default function Home() {
   return (
@@ -10,6 +13,9 @@ export default function Home() {
         </div>
       </header>
       <Hero />
+      <WhoIsThisFor />
+      <WhatYouLearn />
+      <Instructor />
     </main>
   );
 }
