@@ -48,7 +48,7 @@ export function Instructor() {
               
               <p className="font-semibold">
                 Certifications: CBT Practitioner, ADHD Coach Certification (ACO), 
-                Master's in Organizational Psychology
+                Master&apos;s in Organizational Psychology
               </p>
             </div>
           </div>

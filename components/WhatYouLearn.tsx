@@ -40,7 +40,7 @@ export function WhatYouLearn() {
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-text mb-16">
-          What You'll Learn
+          What You&apos;ll Learn
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

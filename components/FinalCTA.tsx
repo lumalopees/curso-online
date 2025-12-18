@@ -11,7 +11,7 @@ export function FinalCTA() {
         </h2>
         
         <p className="text-lg sm:text-xl text-text opacity-90 max-w-2xl mx-auto">
-          Join hundreds of neurodivergent individuals who've transformed their productivity.
+          Join hundreds of neurodivergent individuals who&apos;ve transformed their productivity.
         </p>
         
         <a
