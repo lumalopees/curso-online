@@ -43,7 +43,7 @@ export function WhatYouLearn() {
               key={index}
               className="p-6 rounded-lg border border-[#0284C7] dark:border-[#38BDF8] border-opacity-20 hover:border-opacity-50 hover:shadow-lg hover:shadow-[#0284C7]/10 dark:hover:shadow-[#38BDF8]/10 transition-all duration-300 group hover:-translate-y-1"
             >
-              <div className="w-12 h-12 rounded-lg bg-[#0284C7] dark:bg-[#38BDF8] bg-opacity-10 flex items-center justify-center mb-4 group-hover:bg-opacity-20 group-hover:scale-110 transition-all duration-300 relative">
+              <div className="w-12 h-12 rounded-lg bg-[#0284C7] dark:bg-[#1e293b] bg-opacity-10 dark:bg-opacity-100 flex items-center justify-center mb-4 group-hover:bg-opacity-20 dark:group-hover:bg-opacity-80 group-hover:scale-110 transition-all duration-300 relative">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
                   width="24" 

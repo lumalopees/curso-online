@@ -37,7 +37,7 @@ export function WhoIsThisFor() {
               key={index}
               className="flex items-start gap-4 group transition-transform duration-300 hover:translate-x-1"
             >
-              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#0284C7] dark:bg-[#38BDF8] bg-opacity-10 flex items-center justify-center group-hover:bg-opacity-20 transition-all duration-300 relative">
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#0284C7] dark:bg-[#1e293b] bg-opacity-10 dark:bg-opacity-100 flex items-center justify-center group-hover:bg-opacity-20 dark:group-hover:bg-opacity-80 transition-all duration-300 relative">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
                   width="20" 
