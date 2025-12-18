@@ -37,10 +37,10 @@ export function WhoIsThisFor() {
               key={index}
               className="flex items-start gap-4 group transition-transform duration-300 hover:translate-x-1"
             >
-              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-accent bg-opacity-10 flex items-center justify-center group-hover:bg-opacity-20 transition-all duration-300">
-                <Brain className="w-5 h-5 text-accent group-hover:scale-110 transition-transform duration-300" strokeWidth={2} />
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#38BDF8] dark:bg-[#38BDF8] bg-opacity-10 dark:bg-opacity-10 flex items-center justify-center group-hover:bg-opacity-20 dark:group-hover:bg-opacity-20 transition-all duration-300">
+                <Brain className="w-5 h-5 text-[#38BDF8] dark:text-[#38BDF8] group-hover:scale-110 transition-transform duration-300" strokeWidth={2} />
               </div>
-              <p className="text-lg text-text opacity-90 pt-1.5">
+              <p className="text-lg text-[#E5E7EB] dark:text-[#E5E7EB] opacity-90 pt-1.5">
                 {item.text}
               </p>
             </div>

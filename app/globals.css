@@ -24,6 +24,17 @@ a, button {
   transition: all 0.3s ease-in-out;
 }
 
+/* Force SVG icons to be visible */
+svg {
+  display: inline-block !important;
+  vertical-align: middle;
+}
+
+/* Ensure Lucide icons render properly */
+.lucide {
+  display: inline-block !important;
+}
+
 /* Custom scrollbar for better UX */
 ::-webkit-scrollbar {
   width: 10px;
@@ -61,23 +72,28 @@ a, button {
 }
 
 .dark .bg-background {
-  background-color: #0F172A;
+  background-color: #0F172A !important;
 }
 
 .dark .text-text {
-  color: #E5E7EB;
+  color: #E5E7EB !important;
 }
 
 .dark .text-accent {
-  color: #38BDF8;
+  color: #38BDF8 !important;
+}
+
+.dark .text-accent svg {
+  color: #38BDF8 !important;
+  stroke: #38BDF8 !important;
 }
 
 .dark .bg-accent {
-  background-color: #38BDF8;
+  background-color: #38BDF8 !important;
 }
 
 .dark .border-accent {
-  border-color: #38BDF8;
+  border-color: #38BDF8 !important;
 }
 
 /* Light mode */
@@ -87,22 +103,27 @@ a, button {
 }
 
 .light .bg-background {
-  background-color: #FFFFFF;
+  background-color: #FFFFFF !important;
 }
 
 .light .text-text {
-  color: #1F2937;
+  color: #1F2937 !important;
 }
 
 .light .text-accent {
-  color: #0284C7;
+  color: #0284C7 !important;
+}
+
+.light .text-accent svg {
+  color: #0284C7 !important;
+  stroke: #0284C7 !important;
 }
 
 .light .bg-accent {
-  background-color: #0284C7;
+  background-color: #0284C7 !important;
 }
 
 .light .border-accent {
-  border-color: #0284C7;
+  border-color: #0284C7 !important;
 }
 

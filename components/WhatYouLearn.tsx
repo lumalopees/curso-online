@@ -41,15 +41,15 @@ export function WhatYouLearn() {
           {learningCards.map((card, index) => (
             <div
               key={index}
-              className="p-6 rounded-lg border border-accent border-opacity-20 hover:border-opacity-50 hover:shadow-lg hover:shadow-accent/10 transition-all duration-300 group hover:-translate-y-1"
+              className="p-6 rounded-lg border border-[#38BDF8] dark:border-[#38BDF8] border-opacity-20 hover:border-opacity-50 hover:shadow-lg hover:shadow-[#38BDF8]/10 transition-all duration-300 group hover:-translate-y-1"
             >
-              <div className="w-12 h-12 rounded-lg bg-accent bg-opacity-10 flex items-center justify-center mb-4 group-hover:bg-opacity-20 group-hover:scale-110 transition-all duration-300">
-                <Rocket className="w-6 h-6 text-accent group-hover:rotate-12 transition-transform duration-300" strokeWidth={2} />
+              <div className="w-12 h-12 rounded-lg bg-[#38BDF8] dark:bg-[#38BDF8] bg-opacity-10 flex items-center justify-center mb-4 group-hover:bg-opacity-20 group-hover:scale-110 transition-all duration-300">
+                <Rocket className="w-6 h-6 text-[#38BDF8] dark:text-[#38BDF8] group-hover:rotate-12 transition-transform duration-300" strokeWidth={2} />
               </div>
-              <h3 className="text-xl font-semibold text-text mb-2 group-hover:text-accent transition-colors duration-300">
+              <h3 className="text-xl font-semibold text-[#E5E7EB] dark:text-[#E5E7EB] mb-2 group-hover:text-[#38BDF8] dark:group-hover:text-[#38BDF8] transition-colors duration-300">
                 {card.title}
               </h3>
-              <p className="text-text opacity-80 leading-relaxed">
+              <p className="text-[#E5E7EB] dark:text-[#E5E7EB] opacity-80 leading-relaxed">
                 {card.description}
               </p>
             </div>
