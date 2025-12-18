@@ -38,7 +38,11 @@ export function WhoIsThisFor() {
               className="flex items-start gap-4 group transition-transform duration-300 hover:translate-x-1"
             >
               <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#0284C7] dark:bg-[#38BDF8] bg-opacity-10 flex items-center justify-center group-hover:bg-opacity-20 transition-all duration-300">
-                <Brain className="w-5 h-5 text-[#0284C7] dark:text-[#38BDF8] group-hover:scale-110 transition-transform duration-300" strokeWidth={2} />
+                <Brain 
+                  className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" 
+                  strokeWidth={2}
+                  style={{ stroke: 'currentColor', color: '#38BDF8' }}
+                />
               </div>
               <p className="text-lg text-[#1F2937] dark:text-[#E5E7EB] opacity-90 pt-1.5">
                 {item.text}

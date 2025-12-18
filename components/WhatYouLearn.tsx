@@ -44,7 +44,11 @@ export function WhatYouLearn() {
               className="p-6 rounded-lg border border-[#0284C7] dark:border-[#38BDF8] border-opacity-20 hover:border-opacity-50 hover:shadow-lg hover:shadow-[#0284C7]/10 dark:hover:shadow-[#38BDF8]/10 transition-all duration-300 group hover:-translate-y-1"
             >
               <div className="w-12 h-12 rounded-lg bg-[#0284C7] dark:bg-[#38BDF8] bg-opacity-10 flex items-center justify-center mb-4 group-hover:bg-opacity-20 group-hover:scale-110 transition-all duration-300">
-                <Rocket className="w-6 h-6 text-[#0284C7] dark:text-[#38BDF8] group-hover:rotate-12 transition-transform duration-300" strokeWidth={2} />
+                <Rocket 
+                  className="w-6 h-6 group-hover:rotate-12 transition-transform duration-300" 
+                  strokeWidth={2}
+                  style={{ stroke: 'currentColor', color: '#38BDF8' }}
+                />
               </div>
               <h3 className="text-xl font-semibold text-[#1F2937] dark:text-[#E5E7EB] mb-2 group-hover:text-[#0284C7] dark:group-hover:text-[#38BDF8] transition-colors duration-300">
                 {card.title}

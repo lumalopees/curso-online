@@ -28,11 +28,33 @@ a, button {
 svg {
   display: inline-block !important;
   vertical-align: middle;
+  stroke: currentColor !important;
+  fill: none !important;
 }
 
 /* Ensure Lucide icons render properly */
 .lucide {
   display: inline-block !important;
+  stroke: currentColor !important;
+  fill: none !important;
+}
+
+/* Dark mode SVG colors */
+.dark svg {
+  color: #38BDF8 !important;
+}
+
+.dark .lucide {
+  color: #38BDF8 !important;
+}
+
+/* Light mode SVG colors */
+.light svg {
+  color: #0284C7 !important;
+}
+
+.light .lucide {
+  color: #0284C7 !important;
 }
 
 /* Custom scrollbar for better UX */
