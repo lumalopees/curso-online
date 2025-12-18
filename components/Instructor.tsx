@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export function Instructor() {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-background">
+    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-text mb-12">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-text mb-16">
           About the Instructor
         </h2>
         
