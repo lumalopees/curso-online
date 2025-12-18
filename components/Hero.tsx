@@ -40,7 +40,7 @@ export function Hero() {
           {/* Right Column - Image */}
           <div className="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] rounded-lg overflow-hidden hover:scale-105 transition-transform duration-500">
             <Image
-              src="https://img.freepik.com/free-vector/human-brain-with-colorful-geometric-shapes_23-2148273133.jpg"
+              src="https://news.virginia.edu/sites/default/files/Header_Brain_Power.jpg"
               alt="Brain power and neurodivergent thinking"
               fill
               className="object-cover"
