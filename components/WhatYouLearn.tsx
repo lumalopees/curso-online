@@ -43,12 +43,32 @@ export function WhatYouLearn() {
               key={index}
               className="p-6 rounded-lg border border-[#0284C7] dark:border-[#38BDF8] border-opacity-20 hover:border-opacity-50 hover:shadow-lg hover:shadow-[#0284C7]/10 dark:hover:shadow-[#38BDF8]/10 transition-all duration-300 group hover:-translate-y-1"
             >
-              <div className="w-12 h-12 rounded-lg bg-[#0284C7] dark:bg-[#38BDF8] bg-opacity-10 flex items-center justify-center mb-4 group-hover:bg-opacity-20 group-hover:scale-110 transition-all duration-300">
-                <Rocket 
-                  className="w-6 h-6 group-hover:rotate-12 transition-transform duration-300" 
-                  strokeWidth={2}
-                  style={{ stroke: 'currentColor', color: '#38BDF8' }}
-                />
+              <div className="w-12 h-12 rounded-lg bg-[#0284C7] dark:bg-[#38BDF8] bg-opacity-10 flex items-center justify-center mb-4 group-hover:bg-opacity-20 group-hover:scale-110 transition-all duration-300 relative">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="24" 
+                  height="24" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="#38BDF8" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round"
+                  className="group-hover:rotate-12 transition-transform duration-300"
+                  style={{ 
+                    position: 'relative', 
+                    zIndex: 10, 
+                    opacity: 1,
+                    visibility: 'visible',
+                    display: 'block',
+                    pointerEvents: 'auto'
+                  }}
+                >
+                  <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" stroke="#38BDF8" fill="none"></path>
+                  <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" stroke="#38BDF8" fill="none"></path>
+                  <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" stroke="#38BDF8" fill="none"></path>
+                  <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" stroke="#38BDF8" fill="none"></path>
+                </svg>
               </div>
               <h3 className="text-xl font-semibold text-[#1F2937] dark:text-[#E5E7EB] mb-2 group-hover:text-[#0284C7] dark:group-hover:text-[#38BDF8] transition-colors duration-300">
                 {card.title}
