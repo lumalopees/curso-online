@@ -19,6 +19,41 @@ body {
   line-height: 1.6;
 }
 
+/* Smooth transitions for all interactive elements */
+a, button {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Custom scrollbar for better UX */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #38BDF8;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0284C7;
+}
+
+.light ::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+
+.light ::-webkit-scrollbar-thumb {
+  background: #0284C7;
+}
+
+.light ::-webkit-scrollbar-thumb:hover {
+  background: #38BDF8;
+}
+
 /* Dark mode (default) */
 .dark {
   background-color: #0F172A;

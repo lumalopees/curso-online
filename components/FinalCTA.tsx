@@ -16,10 +16,10 @@ export function FinalCTA() {
         
         <a
           href="#"
-          className="inline-flex items-center justify-center px-10 py-5 bg-accent text-white font-semibold rounded-lg hover:opacity-90 transition-opacity text-lg"
+          className="inline-flex items-center justify-center px-10 py-5 bg-accent text-white font-semibold rounded-lg hover:opacity-90 hover:scale-105 transition-all duration-300 text-lg group"
         >
           Enroll Now
-          <ArrowRight className="ml-2 w-6 h-6" />
+          <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform duration-300" />
         </a>
       </div>
     </section>

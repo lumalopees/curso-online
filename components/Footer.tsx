@@ -16,10 +16,10 @@ export function Footer() {
           href="https://instagram.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 text-accent hover:opacity-80 transition-opacity"
+          className="flex items-center gap-2 text-accent hover:opacity-80 hover:scale-105 transition-all duration-300 group"
           aria-label="Follow us on Instagram"
         >
-          <Instagram className="w-5 h-5" />
+          <Instagram className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
           <span className="text-sm font-medium">Follow us</span>
         </a>
       </div>

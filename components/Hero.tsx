@@ -21,27 +21,27 @@ export function Hero() {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#enroll"
-                className="inline-flex items-center justify-center px-8 py-4 bg-accent text-white font-semibold rounded-lg hover:opacity-90 transition-opacity text-lg"
+                className="inline-flex items-center justify-center px-8 py-4 bg-accent text-white font-semibold rounded-lg hover:opacity-90 hover:scale-105 transition-all duration-300 text-lg group"
               >
                 I want to enroll
-                <ArrowRight className="ml-2 w-5 h-5" />
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
               </a>
               
               <a
                 href="#content"
-                className="inline-flex items-center justify-center px-6 py-4 border-2 border-accent text-accent font-semibold rounded-lg hover:bg-opacity-10 hover:bg-accent transition-colors"
+                className="inline-flex items-center justify-center px-6 py-4 border-2 border-accent text-accent font-semibold rounded-lg hover:bg-opacity-10 hover:bg-accent hover:scale-105 transition-all duration-300 group"
               >
-                <Play className="mr-2 w-5 h-5" />
+                <Play className="mr-2 w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
                 View content
               </a>
             </div>
           </div>
 
           {/* Right Column - Image */}
-          <div className="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] rounded-lg overflow-hidden">
+          <div className="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] rounded-lg overflow-hidden hover:scale-105 transition-transform duration-500">
             <Image
-              src="https://www.freepik.com/free-photos-vectors/brain-power-png"
-              alt="Productivity and focus workspace"
+              src="https://img.freepik.com/free-vector/human-brain-with-colorful-geometric-shapes_23-2148273133.jpg"
+              alt="Brain power and neurodivergent thinking"
               fill
               className="object-cover"
               priority

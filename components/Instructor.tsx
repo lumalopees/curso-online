@@ -13,7 +13,7 @@ export function Instructor() {
         <div className="flex flex-col md:flex-row gap-8 items-start">
           {/* Left Column - Photo */}
           <div className="flex-shrink-0">
-            <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden">
+            <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden hover:scale-105 transition-transform duration-300">
               <Image
                 src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop"
                 alt="Course instructor"
